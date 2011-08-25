@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "chargify_api"
   gem.homepage = "http://github.com/joshnabbott/chargify_api"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A better Chargify API wrapper.}
+  gem.description = %Q{A better Chargify API wrapper,}
   gem.email = "joshnabbott@gmail.com"
   gem.authors = ["Joshua Abbott"]
   # dependencies defined in Gemfile
