@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{chargify_api}
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Joshua Abbott}]
-  s.date = %q{2011-08-25}
+  s.date = %q{2011-08-29}
   s.description = %q{A better Chargify API wrapper,}
   s.email = %q{joshnabbott@gmail.com}
   s.extra_rdoc_files = [
@@ -19,12 +19,14 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/chargify_api.rb",
+    "chargify_api.gemspec",
     "lib/chargify.rb",
+    "lib/chargify_api.rb",
     "lib/connection.rb",
     "lib/list.rb",
     "lib/list_item.rb",
