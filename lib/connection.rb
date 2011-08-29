@@ -12,8 +12,8 @@ module ChargifyApi
       { :basic_auth => { :username => @api_key, :password => 'x' } }
     end
 
-    def get(uri)
-      HTTParty.get(@base_url + uri, options)
+    def get(uri, query_string)
+      HTTParty.get(@base_url + uri, options.merge(:query => query_string))
     end
   end
 end

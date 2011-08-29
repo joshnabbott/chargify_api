@@ -1,11 +1,5 @@
 module ChargifyApi
-  class Transaction < OpenStruct
-    attr_accessor :id
-
-    def initialize(attributes = {})
-      @id = attributes['id']
-
-      super
-    end
+  class Transaction < ListItem
   end
 end
+

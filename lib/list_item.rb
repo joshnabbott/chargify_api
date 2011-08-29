@@ -9,3 +9,4 @@ module ChargifyApi
     end
   end
 end
+
