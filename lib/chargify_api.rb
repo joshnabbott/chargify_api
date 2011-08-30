@@ -10,7 +10,7 @@ require File.expand_path('../transaction', __FILE__)
 require File.expand_path('../transactions', __FILE__)
 
 module ChargifyApi
-  VERSION             = '0.0.1'
+  VERSION             = '0.1.0'
   YAML::ENGINE.yamler = 'syck'
 end
 
