@@ -1,5 +1,5 @@
 module ChargifyApi
-  class Transaction < ListItem
+  class Transaction < Hashie::Mash
   end
 end
 

@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'httparty'
-require 'ostruct'
-require 'ruby-debug'
+require 'hashie'
 require File.expand_path('../chargify', __FILE__)
 require File.expand_path('../connection', __FILE__)
 require File.expand_path('../list', __FILE__)

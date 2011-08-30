@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
 gem 'httparty'
+gem 'hashie'
 
 group :development do
   gem 'ruby-debug19', :require => 'ruby-debug'
